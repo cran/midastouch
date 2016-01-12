@@ -1,0 +1,4 @@
+#exportPattern("^[[:alpha:]]+")
+export(mice.impute.midastouch)
+importFrom(utils,head)
+importFrom(utils,tail)

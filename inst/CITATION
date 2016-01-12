@@ -1,0 +1,17 @@
+citHeader("To cite midastouch in publications use:")
+
+citEntry(entry = "Article",
+  title        = "{midastouch}: Towards an MI-proper Predictive Mean Matching",
+  author       = personList(person("Philipp", "Gaffert"),
+                   as.person("Florian Meinfelder"),
+				   as.person("Volker Bosch")),
+  journal      = "Discussion Paper",
+  year         = "2015",
+  pages        = "1--14",
+  url          = "https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/sowi_lehrstuehle/statistik/Personen/Dateien_Florian/properPMM.pdf",
+
+  textVersion  =
+  paste("Philipp Gaffert, Florian Meinfelder, Volker Bosch (2015).",
+        "Towards an MI-proper Predictive Mean Matching",
+        "Discussion Paper, 1-14.",
+        "URL https://www.uni-bamberg.de/fileadmin/uni/fakultaeten/sowi_lehrstuehle/statistik/Personen/Dateien_Florian/properPMM.pdf"))
