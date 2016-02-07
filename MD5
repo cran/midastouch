@@ -1,6 +1,6 @@
-c9db43638b3668e874098413c86fd6a9 *DESCRIPTION
+22f82711a0eb895b3a775b50e73d8b36 *DESCRIPTION
 f663aac7855f4e2d293b2ff19b75a545 *NAMESPACE
 4801bcc203ecadddcbdf0a9472735242 *R/auxiliaries.R
-1b4eb7c5140d52b7ec4e4bf2e963274a *R/mice.impute.midastouch.R
+d54002871e732504728cc410692e6b8e *R/mice.impute.midastouch.R
 4c3e2795eaddc29dda79129459f13ede *inst/CITATION
-324d406f261d79ff1d9824399d9d6a53 *man/mice.impute.midastouch.Rd
+57dfd719a80be9de4a08970947b34cbc *man/mice.impute.midastouch.Rd

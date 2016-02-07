@@ -4,7 +4,7 @@
 \title{Predictive Mean Matching with distance aided selection of donors}
 \usage{
 mice.impute.midastouch(y, ry, x, ridge = 1e-05, 
-	midas.kappa = NULL, outout = TRUE, neff = NULL, debug = NULL)
+	midas.kappa = NULL, outout = TRUE, neff = NULL, debug = NULL, ...)
 }
 \arguments{
 \item{y}{Numeric vector with incomplete data}
@@ -24,6 +24,8 @@ containing complete covariates.}
 \item{neff}{FOR EXPERTS. Null or character string. The name of an existing environment in which the effective sample size of the donors for each loop (CE iterations times multiple imputations) is supposed to be written. The effective sample size is necessary to compute the correction for the total variance as originally suggested by Parzen, Lipsitz and Fitzmaurice 2005. The objectname is \code{midastouch.neff}.}
 
 \item{debug}{FOR EXPERTS. Null or character string. The name of an existing environment in which the input is supposed to be written. The objectname is \code{midastouch.inputlist}.}
+
+\item{...}{Other named arguments.}
 }
 
 \value{

@@ -1,4 +1,4 @@
-mice.impute.midastouch <- function(y, ry, x, ridge = 1e-05, midas.kappa = NULL, outout = TRUE, neff = NULL, debug = NULL) {
+mice.impute.midastouch <- function(y, ry, x, ridge = 1e-05, midas.kappa = NULL, outout = TRUE, neff = NULL, debug = NULL, ...) {
 
   #+ auxiliaries +#
   if(!is.null(debug)){midastouch.inputlist <- list(y = y, ry = ry, x = x, omega = NULL)}
